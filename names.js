@@ -5,5 +5,5 @@ function person(firstName, lastName) {
       lastName: lastName
   };
 }
-
+// Esportazione della funzione
 module.exports = person;
