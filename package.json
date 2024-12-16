@@ -1,0 +1,22 @@
+{
+  "name": "commonjs-modules",
+  "version": "1.0.0",
+  "description": "Lavoriamo con i moduli commonjs esportando e importando valori e funzioni. Segui questi tre step creando i rispettivi files:",
+  "main": "hobbies.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node names.js",
+    "dev": "node --watch names.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luigi-giordano/node-commonjs-modules.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luigi-giordano/node-commonjs-modules/issues"
+  },
+  "homepage": "https://github.com/luigi-giordano/node-commonjs-modules#readme"
+}
