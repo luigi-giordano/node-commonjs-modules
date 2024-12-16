@@ -1,9 +1,10 @@
 // Funzione che accetta tre parametri e restituisce un oggetto con un array di hobby
-function hobbies(hobbyOne, hobbyTwo, hobbyThree) {
+function getHobbies(hobbyOne, hobbyTwo, hobbyThree) {
   return {
       hobbies: [hobbyOne, hobbyTwo, hobbyThree]
   };
 }
 
+console.log(getHobbies);
 // Esportazione della funzione
-module.exports = hobbies;
+module.exports = getHobbies;

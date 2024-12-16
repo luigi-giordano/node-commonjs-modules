@@ -2,11 +2,11 @@
   "name": "commonjs-modules",
   "version": "1.0.0",
   "description": "Lavoriamo con i moduli commonjs esportando e importando valori e funzioni. Segui questi tre step creando i rispettivi files:",
-  "main": "hobbies.js",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node names.js",
-    "dev": "node --watch names.js"
+    "start": "node app.js",
+    "dev": "node --watch app.js"
   },
   "repository": {
     "type": "git",
