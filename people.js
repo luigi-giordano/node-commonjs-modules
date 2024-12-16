@@ -16,3 +16,5 @@ function functionPerson() {
         hobbies: hobbies.hobbies
     };
 }
+// Esportazione della funzione
+module.exports = functionPerson;
