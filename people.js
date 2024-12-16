@@ -1,11 +1,11 @@
 // Importa le funzioni dai file names.js e hobbies.js
-const name = require('./names');
+const person = require('./names');
 const hobbies = require('./hobbies');
 
 // Funzione che non accetta parametri
-function person() {
+function functionPerson() {
     // Uso name per ottenere il nome completo
-    const fullName = name('Mario', 'Rossi');
+    const fullName = person('Mario', 'Rossi');
     
     // Uso createHobbies per ottenere gli hobby
     const hobbies = hobbies('calcio', 'lettura', 'viaggi');
@@ -16,4 +16,3 @@ function person() {
         hobbies: hobbies.hobbies
     };
 }
-console.log(return):
