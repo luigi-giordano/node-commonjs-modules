@@ -16,3 +16,4 @@ function person() {
         hobbies: hobbies.hobbies
     };
 }
+console.log(return):
